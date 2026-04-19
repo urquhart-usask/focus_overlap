@@ -24,7 +24,7 @@ def circle_overlap_percent(spacing, diameter):
         return 100.0
 
     part1 = 2 * r**2 * math.acos(D / (2 * r))
-    part2 = 0.5 * D * math.sqrt(4 * r**2 - D**2
+    part2 = 0.5 * D * math.sqrt(4 * r**2 - D**2)
     overlap_area = part1 - part2
 
     circle_area = math.pi * r ** 2
